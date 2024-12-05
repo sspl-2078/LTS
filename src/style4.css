@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  justify-content: center;
+    width: 80vw;
+    margin: auto;
+  }
+  .lost,.found,.post{
+    width: 40 vw;
+    height: 80vh;
+    border: solid black 2px;
+    padding: 10px;
+    overflow: auto;
+    text-overflow: ellipsis;
+  }
+  .welcome{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
